@@ -1,0 +1,5 @@
+SELECT * FROM COURSE 
+
+INSERT INTO COURSE VALUES (1,'Learning AWS' , 'Oscar')
+
+INSERT INTO COURSE VALUES (2,'learning Spring' ,'in 28 minutes')
