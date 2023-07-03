@@ -10,4 +10,8 @@ public interface CourseSpringDataJpaRepository extends JpaRepository<Course,Long
     List<Course> findByAuthor(String author);
 
     List<Course> findByName(String string);
+
+    Course findById(long id);
+
+
 }

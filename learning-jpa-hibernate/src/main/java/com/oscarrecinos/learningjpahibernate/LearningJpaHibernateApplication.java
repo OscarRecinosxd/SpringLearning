@@ -8,6 +8,7 @@ public class LearningJpaHibernateApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(LearningJpaHibernateApplication.class, args);
+		
 	}
 
 }

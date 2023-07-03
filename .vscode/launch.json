@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-LearningJpaHibernateApplication<learning-jpa-hibernate>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.oscarrecinos.learningjpahibernate.LearningJpaHibernateApplication",
+            "projectName": "learning-jpa-hibernate",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
