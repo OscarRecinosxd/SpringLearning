@@ -2,11 +2,11 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Spring Boot-LearningJpaHibernateApplication<learning-jpa-hibernate>",
+            "name": "Spring Boot-TodoApplication<todo_application>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
-            "mainClass": "com.oscarrecinos.learningjpahibernate.LearningJpaHibernateApplication",
-            "projectName": "learning-jpa-hibernate",
+            "mainClass": "com.oscarrecinos.todo_application.TodoApplication",
+            "projectName": "todo_application",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
         }
