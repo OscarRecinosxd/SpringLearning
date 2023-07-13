@@ -2,11 +2,28 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RestapiApplication",
+            "request": "launch",
+            "mainClass": "com.oscarrecinos.restapi.RestapiApplication"
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-TodoApplication<todo_application>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
             "mainClass": "com.oscarrecinos.todo_application.TodoApplication",
             "projectName": "todo_application",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=54455 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=todo_application"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-RestapiApplication<restapi>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.oscarrecinos.restapi.RestapiApplication",
+            "projectName": "restapi",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
         }
