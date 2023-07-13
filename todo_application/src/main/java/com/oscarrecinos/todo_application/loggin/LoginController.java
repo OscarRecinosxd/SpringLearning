@@ -41,7 +41,6 @@ public class LoginController {
         } else {
             return "login";
         }
-        
     }
 
 }

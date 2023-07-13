@@ -2,10 +2,15 @@ package com.oscarrecinos.todo_application.todo;
 
 import java.time.LocalDate;
 
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.Size;
+
 public class Todo {
     private int id;
+    @Size(min=8,message = "En")
     private String username;
     private String description;
+
     private LocalDate targetDate;
     private boolean done;
     
