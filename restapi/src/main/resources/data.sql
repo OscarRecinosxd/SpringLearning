@@ -1,0 +1,5 @@
+insert into user_details(id,birth_date,name) VALUES (1001,CURRENT_DATE(),'Oscar')
+insert into user_details(id,birth_date,name) VALUES (1002,CURRENT_DATE(),'Agustin')
+insert into user_details(id,birth_date,name) VALUES (1003,CURRENT_DATE(),'Recinos')
+insert into user_details(id,birth_date,name) VALUES (1004,CURRENT_DATE(),'Alvarenga')
+insert into user_details(id,birth_date,name) VALUES (1005,CURRENT_DATE(),'Chepe')
