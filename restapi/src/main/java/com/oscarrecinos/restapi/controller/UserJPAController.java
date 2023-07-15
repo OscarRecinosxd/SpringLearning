@@ -40,7 +40,7 @@ public class UserJPAController {
     }
 
     @GetMapping(value = "/jpa/users/{id}")
-    public User getUser(@PathVariable int id) {
+    public User getUser(@PathVariable Long id) {
         User user = userRepository.findById(id).orElse(null);
         if (user == null) {
             throw new ErrorException("id: not found");
@@ -61,7 +61,7 @@ public class UserJPAController {
         
     }
     @DeleteMapping(value="/jpa/users/{id}")
-    public ResponseEntity<?> postMethodName(@PathVariable int id) {
+    public ResponseEntity<?> postMethodName(@PathVariable Long id) {
         userRepository.deleteById(id);
         
         return ResponseEntity.ok().body(new ResponseDTO("Deleted!"));

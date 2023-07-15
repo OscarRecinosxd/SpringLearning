@@ -11,7 +11,7 @@ import com.oscarrecinos.restapi.model.Entities.User;
 @Service
 public class UserDao {
     private static List<User> users = new ArrayList<>();
-    public static int usersCount = 0;
+    public static Long usersCount = 0l;
 
     static{
         users.add(new User(++usersCount, "Oscar", LocalDate.now().minusYears(25)));

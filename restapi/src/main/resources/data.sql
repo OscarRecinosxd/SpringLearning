@@ -3,3 +3,8 @@ insert into user_details(id,birth_date,name) VALUES (1002,CURRENT_DATE(),'Agusti
 insert into user_details(id,birth_date,name) VALUES (1003,CURRENT_DATE(),'Recinos')
 insert into user_details(id,birth_date,name) VALUES (1004,CURRENT_DATE(),'Alvarenga')
 insert into user_details(id,birth_date,name) VALUES (1005,CURRENT_DATE(),'Chepe')
+
+insert into post(id,description,user_id) VALUES (2001, 'i want to learn js',1001)
+insert into post(id,description,user_id) VALUES (2002, 'i want to learn react',1001)
+insert into post(id,description,user_id) VALUES (2003, 'i want to learn java',1002)
+insert into post(id,description,user_id) VALUES (2004, 'i want to learn angular',1002)
